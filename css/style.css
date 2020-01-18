@@ -3,3 +3,69 @@
     padding: 0;
     box-sizing: border-box;
 }
+.hkm_section1{
+    width: 100%;
+}
+.hkm_container1{
+    padding-top: 60px;
+    width: 62%;
+    display: flex;
+    margin: auto;
+}
+.hkm_right1{
+    width: 30%;
+}
+.hkm_right1 img{
+    float: right;
+}
+.hkm_left1{
+    width: 70%;
+}
+.hkm_upperLeft1{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    line-height: 50px;
+}
+.hkm_lowerLeft1{
+    display: flex;
+}
+.hkm_lowerLeft1 div{
+    /* width: 33.333%; */
+    text-align: center;
+    /* padding: 10px; */
+    line-height: 35px;
+}
+.hkm_lowerLeft1 img{
+    margin-bottom: 10px;
+    width: 93%;
+}
+.hkm_chewyFont{
+    font-family: "Chewy",Sans-serif;
+}
+.hkm_greatVibesFont{
+    font-family: 'Great Vibes';
+    font-size: 32px;
+    font-weight: 400;
+}
+.hkm_assistantFont{
+    font-family: "Assistant",Sans-serif;
+}
+.hkm_section1 .hkm_greatVibesFont{
+    color: red;
+}
+.hkm_upperLeft1 .hkm_chewyFont,
+.hkm_lowerLeft1 .hkm_chewyFont{
+    font-weight: 400;
+    color: #282828;
+}
+.hkm_upperLeft1 .hkm_chewyFont{
+    font-size: 56px;
+}
+.hkm_lowerLeft1 .hkm_chewyFont{
+    font-size: 26px;
+   
+}
+.hkm_lowerLeft1 .hkm_assistantFont{
+    color: #555;
+    font-size: 17px;
+}
