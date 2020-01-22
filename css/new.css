@@ -1,0 +1,242 @@
+*{
+    /* width: 80%; */
+    margin: auto;
+    padding-left:  0%;
+    padding-right: 0%;
+    text-align: center;
+    align-content: center;
+    
+}
+.container1{
+    width: 80%;
+    margin: auto;}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: teal;
+    
+  
+}
+
+ .D1{
+    display: inline-block;
+    width: 22%; 
+    float: left; 
+    /* padding-left: 6px;
+    padding-right: 4px;
+    */
+}
+
+.D2{
+ 
+    display: inline-block;  
+    width: 40%;
+    float: right;  
+    /* padding-left: 6px;
+    padding-right: 4px; */
+    
+} 
+.ice{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+.P1{
+    padding-top: 4px;
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+    
+}
+.P2{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bolder;
+    color: pink;
+}
+.P3{
+    display: inline-flex;
+    width: 56%;
+    margin-top: 4px;
+    margin: 2px;
+    padding-bottom: 3px;
+    padding-top: 7px;
+    padding-left: 5%;
+    color: cornsilk;
+    font-family: Lucidatypewriter, monospace;
+    font-weight: bold;
+}
+.P4{
+    /* display: inline-flex; */
+    width: 42%;
+    /* text-align: right; */
+    margin: 2px;
+    padding-bottom: 3px;
+    padding-top: 7px;
+    padding-right: 5px;
+    margin-left: 36%;
+    color: cornsilk;
+    font-family:Lucidatypewriter, monospace;
+    font-weight: bold;
+}
+/* .img1{
+    float: left;
+    width: 23%;
+}
+.img2{
+    float: right;
+    width: 0%;
+    margin-left: 27%
+} */
+.img1{
+    float: left;
+    width: 33%;
+}
+.img2{
+    float: right;
+    width: 18%;
+}
+ 
+  .all{
+    display: flex;
+     box-sizing: border-box;
+     width: 80%;
+}  
+ 
+
+
+
+.para1{
+    text-align: center;
+    color: blue;
+    font-style: inherit; 
+    font-size: xx-large;
+    padding-top: 4px;
+    
+}
+.para2{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.div1{
+    display: inline-block;
+    width: 23%;
+    float: left;
+    align-content: center;
+}
+.Sparkle{
+  
+    color: pink;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.div2{
+    display: inline-block;
+    width: 23%;
+    float: right;
+    align-content: center;
+}
+.Mango{
+
+    color:orange;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+   
+    
+}
+
+.div3{
+    display: inline-block;
+    width:23%;
+    align-content: center;
+}
+.Orange{
+ 
+    color:orangered;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.div4{
+    display: inline-block;
+    width: 23%;
+    align-content: center;
+    
+}
+.Berry{
+    
+    color: blue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.button{
+    display: inline-block;
+    margin-right: 75%;
+    margin-left: 0%;
+    width: 200px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 30px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    font-size: medium;
+    color:white;
+   
+}
+
+/* div{
+    padding-left: 6px;
+    padding-right: 4px;
+} */
+
+
+ /* .center{
+    display: inline-block;
+    width: 10%;
+    height: 900px;
+    float: left;
+}  */
+.elementor-shape svg {
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);}
+
+    .elementor *{
+        box-sizing: border-box;
+    }
+    svg{
+        height: 30%;
+        width: 100%;
+        fill: white;
+        
+    }
+    .H{
+        display: inline-block;
+        width: 200px;
+        
+    }
+    
+    
+
