@@ -5,36 +5,20 @@
  
 }
 
-.section9 {
-  /* text-align: center;
-    display: flex;
-   color: lightseagreen; */
-   /*width: 80%;   /* ab3t link l html 3la l whats 3shan aft7o mn l mobile w ashof hayb2a wa5d l shasha wala l2 */
-   /* padding: 80px 0px 80px ;*/
-   /* position: relative; */
-    /*float: initial;
-    transition: all .7s ease-out; /*di l da5la*/
-    /*background-color: white;*/
-    /*position: center;*/
-    /* position: 0px 0px 0px;
-    margin: 0px 0px 0px; */
-
+.sa_section9 {
+  
     width: 80%;
     display: flex;
     margin: auto;
   }
 
 
-  .map{
+  .sa_map{
     width:50%;
-    /* vertical-align: middle;
-    display: inline-block; */
-    /* max-width: 430px;
-    size: 100vw 430px;
-    box-sizing: border-box;
-    padding: 20px; */
+  
   }
-  .feedback{
+
+  .sa_feedback{
    padding-top: 25px;
    padding-left: 80px;
    width: 100%; /*width l name wl phone w kda*/
@@ -46,67 +30,56 @@
 
 }
 
-.sendus{
-    /* margin: 20px;   */
+.sa_sendus{
   
     margin-bottom: 30px;
-    font-size: 19px;
+    font-size: 32px;
     color: coral;
     font-style: italic;
-    font-family: cursive;
+   font-family:  "Great Vibes",Sans-serif;
 }
 
-h2{
-  /* margin: 20px;   */
+.sa_feedback h2{
+ 
     color: black;
-    /* font-style: italic; */
-    font-family: "Chewy",Sans-serif;
-    font-size: 56px;
+    font-family: "Chewy",sans-serif;
+    font-size: 50px;
     font-weight: 400;
     margin-bottom: 50px;
 
 }
 
 
- 
-  
-
-
-.text{
+.sa_text{
   
     padding: 16px 32px;
-    margin: 10px 0px 5px;
+    margin: 15px 0px 12px;
     border: none;
     background: rgba(0,0,0,.04);
     width: 100%; /*3rd l text box*/
-    height: 60px;
+    height: 63px;
     border-radius: 30px;
 }
-.message{
+
+.sa_message{
   height: 150px;
-}
-.button{
+} 
+
+.sa_button{
   padding: 10px 40px;
   border: none;
   font-size: 17px;
   cursor: pointer;
   font-weight: 600;
   border-radius: 40px;
-  margin-top: 30px;
-  /* width: 90px;
-  font-size: 18px;
-  font-weight:bold ;
-  border-radius: 20px; /* l corner bta3 l zorar*/
-  /*padding: 5px;*/
+  margin-top: 20px;
+  height: 50px;
   color: #ffffff;
   background: #ff4756;    
  
 }
 
-
-
-.section10{
-
+.sa_section10{
 
   background-image: url(https://sktperfectdemo.com/themepack/icecream/wp-content/themes/skt-ele-icecream/images/footer-bg.jpg);
   background-position: center;
@@ -121,49 +94,32 @@ h2{
 }
 
 
-  .logo{
+  .sa_logo{
    padding: 70px 0px 40p;
    position: relative;
    margin: auto;
-   
-  /* position: 0px 0px 0px;*/
    left: 0PX; /* 3shan ageb l logo fl nos bs kda mesh mazbot*/
-  /*size: 88px 88px;
-
-   /* margin: 0px 0px 0px;*/
-    /*position: 0px 0px 0px;*/
-  
-   /* position: center;*/
-   /* padding: 70px 0px 0px;*/
-    
-  /*  box-sizing: border-box;*/
-   /* border: none;*/
-    /*max-width: 100%;*/
   
   }
-  .logo img
+
+  .sa_logo img
   {
     display: block;
     margin: auto;
     padding-top: 33px;
   } 
 
-  .middle{
+  .sa_middle{
 
    display: flex;
-   margin-left: 233px;
+   margin-left: 200px;
+   margin-top: 85px;
    width: 80%;
-   padding: 70px 0px 40px;
+   padding: 35px 0px 40px;
    
   }
-/*
-  .middle >div{  di ash8lha 3shan t3mli l msafa ben l boxen wl linkat
 
-    width: 33.333%;
-  }
-
-  */
-   .address{
+   .sa_address{
      
      background-color:#d43c3a;
      border-radius: 20px;
@@ -173,34 +129,34 @@ h2{
      padding: 0px 20px 25px;
      margin-right: 57px; /* 3mltha 3shan ab3d 3n links l social media*/
      margin-left: 45px;
-    /* border: 0;*/
      
    }
-    .follow{
+    .sa_follow{
       padding: 30px 20px 25px;
     }
 
-   .para{
+   .sa_para{
     font-size: 17px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     padding: 30px 20px 25px;
    }
-   .sandy{
+
+   .sa_sandy{
      position: center;
      text-align: center;
      font-weight: bold;
      color: white;
    }
-    .l{
+    .sa_l{
   /* di linkat l social media w m3aha sewr l social media*/
   /*lessssaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa l hover 2li hwa lama a2f l lon bta3 l dayra yt8yr*/
    display: inline-block;
    height: 72px;
-  /* position: relative;*/
    width: 50px;
 }
-.social{
+.sa_social{
+
   /*di sewr l social media*/
   display: flex;
   border-radius: 100%;
@@ -208,7 +164,8 @@ h2{
 }
 
 
-.contact{
+.sa_contact{
+
   background-color: #4ca48f;
   border-radius: 20px;
   width: 310px;
@@ -219,22 +176,31 @@ h2{
   float: right;
 
  }
-.menu{
+.sa_menu{
+
   background-color: rgba(30, 11, 0, 0.6);
   padding: 30px 20px 20px;
   text-align: center;
   width: 80%;
   margin: auto;
+  border-radius: 20px;
  
-  
 }
-.c{
+
+.sa_c{
+
    text-decoration: none;
    color:white;
    margin: 0px 20px 10px;
    font-size: 17px;
 }
-  .copytext{
+.sa_c:hover{
+  color: aqua;
+}
+.sa_c:active{
+  color: yellowgreen;
+}
+  .sa_copytext{
     color: white;
     background-color: #1B0A00;
     padding: 35px 0 32px;
