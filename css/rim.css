@@ -1,27 +1,33 @@
 *{
-    /* width: 80%; */
+margin:0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+.r_container1{
+    width: 80%;
     margin: auto;
-    padding-left:  0%;
-    padding-right: 0%;
     text-align: center;
     align-content: center;
-    
+    padding-left:  0%;
+    padding-right: 0%;
+    /* background-image: url("cone.png"); */
+   
 }
-.container1{
-    width: 80%;
-    margin: auto;}
-
-.container{
+.r_container{
     width: 100%;
     margin: auto;
     padding-left: 2px;
     padding-right: 2px;
     background-color: teal;
-    
+    text-align: center;
+    align-content: center;
   
 }
 
- .D1{
+ .r_D1{
     display: inline-block;
     width: 22%; 
     float: left; 
@@ -30,7 +36,7 @@
     */
 }
 
-.D2{
+.r_D2{
  
     display: inline-block;  
     width: 40%;
@@ -39,40 +45,39 @@
     padding-right: 4px; */
     
 } 
-.ice{
+.r_ice{
     padding-bottom: 4px;
     padding-top: 4px;
 }
-.P1{
+.r_P1{
     padding-top: 4px;
     text-align: center;
     font-style: italic;
     font-size: x-large;
     
 }
-.P2{
+.r_P2{
     text-align: center;
     font-style: italic;
     font-size: 60px;
     font-weight: bolder;
     color: pink;
 }
-.P3{
+.r_P3{
     display: inline-flex;
-    width: 56%;
+    width: 65%;
     margin-top: 4px;
     margin: 2px;
     padding-bottom: 3px;
     padding-top: 7px;
-    padding-left: 5%;
+    padding-left: 3%;
     color: cornsilk;
     font-family: Lucidatypewriter, monospace;
     font-weight: bold;
+    
 }
-.P4{
-    /* display: inline-flex; */
-    width: 42%;
-    /* text-align: right; */
+.r_P4{
+    width: 45%;
     margin: 2px;
     padding-bottom: 3px;
     padding-top: 7px;
@@ -82,25 +87,18 @@
     font-family:Lucidatypewriter, monospace;
     font-weight: bold;
 }
-/* .img1{
-    float: left;
-    width: 23%;
-}
-.img2{
-    float: right;
-    width: 0%;
-    margin-left: 27%
-} */
-.img1{
+
+.r_img1{
     float: left;
     width: 33%;
 }
-.img2{
+.r_img2{
     float: right;
     width: 18%;
 }
  
-  .all{
+  .r_all{
+    margin: auto;
     display: flex;
      box-sizing: border-box;
      width: 80%;
@@ -109,7 +107,7 @@
 
 
 
-.para1{
+.r_para1{
     text-align: center;
     color: blue;
     font-style: inherit; 
@@ -117,7 +115,7 @@
     padding-top: 4px;
     
 }
-.para2{
+.r_para2{
     text-align: center;
     font-style: italic;
     font-size: 60px;
@@ -126,68 +124,78 @@
 
 }
 
-.div1{
+.r_div1{
     display: inline-block;
     width: 23%;
     float: left;
     align-content: center;
+    cursor: url('cone.png'),auto;
 }
-.Sparkle{
+.r_Sparkle{
   
-    color: pink;
+    color:fuchsia;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-style: italic;
     font-size: 20px;
     font-weight:bold;
+    width: 43%;
+    margin-left: 21%;
 }
 
-.div2{
+.r_div2{
     display: inline-block;
     width: 23%;
     float: right;
     align-content: center;
+    cursor: url('cone.png'),auto;
 }
-.Mango{
+.r_Mango{
 
     color:orange;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-style: italic;
     font-size: 20px;
     font-weight:bold;
-   
+    width: 43%;
+    margin-left: 21%;
     
 }
 
-.div3{
+.r_div3{
     display: inline-block;
     width:23%;
     align-content: center;
+    cursor: url('cone.png'),auto;
 }
-.Orange{
+.r_Orange{
  
     color:orangered;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-style: italic;
     font-size: 20px;
     font-weight:bold;
+    width: 43%;
+    margin-left: 21%;
 }
 
-.div4{
+.r_div4{
     display: inline-block;
     width: 23%;
     align-content: center;
-    
+    cursor: url('cone.png'),auto;
 }
-.Berry{
+.r_Berry{
     
     color: blue;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-style: italic;
     font-size: 20px;
     font-weight:bold;
+    width: 43%;
+    margin-left: 21%;
 }
 
-.button{
+.r_button{
     display: inline-block;
     margin-right: 75%;
     margin-left: 0%;
@@ -202,19 +210,27 @@
    
 }
 
-/* div{
-    padding-left: 6px;
-    padding-right: 4px;
-} */
-
-
- /* .center{
+.r_btn{
     display: inline-block;
-    width: 10%;
-    height: 900px;
-    float: left;
-}  */
+    margin-right: 50%;
+    margin-left: 5%;
+    width: 150px;
+    background-color:blue;
+    border-color: blue;
+    border-radius: 30px;
+    padding-top: 10px ;
+    padding-bottom: 10px ;
+    font-size: medium;
+    color:white;
+   
+
+}
+.r_center 
+{
+    margin-left: 10%;
+}
 .elementor-shape svg {
+    margin: auto;
     display: block;
     width: calc(100% + 1.3px);
     position: relative;
@@ -232,11 +248,36 @@
         fill: white;
         
     }
-    .H{
+    .r_H{
         display: inline-block;
         width: 200px;
         
     }
-    
+    .modal {
+        margin: auto;
+        display: none; /* Hidden by default */
+       position: absolute; 
+       right: 20px; 
+       top: 60px; 
+       left: 0;
+       width: 60%; 
+       height: 200px; 
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        overflow: auto; /* Enable scroll if needed */
+    }
+    .modal-content {
+        margin: auto;
+        position: relative;
+        background-color: #fefefe;
+        margin-left: 70%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border: 1px solid #888;
+        width: 22%;
+      }
+      .modal-body { margin: auto; padding: 2px 16px; }
+
+
     
 
