@@ -9,10 +9,11 @@ var word=document.getElementsByClassName("modal-body")[0]
 // var images=['img/c4.jpg','img/c5.jpg','img/c6.jpg']
 var bgcolor=["white","pink","burlywood","aquamarine"]
 var r_btn=document.getElementsByClassName("r_btn")[0]
+var r_btn1=document.getElementsByClassName("r_btn1")[0]
 var svg=document.getElementsByTagName("svg")[0]
 var body=document.getElementsByTagName("body")[0]
 var i=0;
-
+var f;
 
 function colors()
 {
@@ -71,8 +72,14 @@ function fun1()
 function fun3()
 {
     r_btn.style.display="none"
-     f=setInterval(fun1,1500);
+    r_btn1.style.display="inline-block"
+     f=setInterval(fun1,1000);
 }
+function r_fun3()
+{
+    clearInterval(f)
+}
+
 
 
 button1.addEventListener('mouseenter',colors)
@@ -86,4 +93,5 @@ rimg3.addEventListener("mouseleave",noshow)
 rimg4.addEventListener("mouseenter",show4)
 rimg4.addEventListener("mouseleave",noshow)
 r_btn.addEventListener("click",fun3)
+r_btn1.addEventListener("click",r_fun3)
 
