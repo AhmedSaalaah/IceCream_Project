@@ -1,0 +1,103 @@
+*{
+    width: 80%;
+    margin: auto;
+    padding-left:  0%;
+    padding-right: 0%;
+    text-align: center;
+    align-content: center;
+    
+}
+.container{
+    margin: auto;
+
+}
+.para1{
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+    padding-top: 4px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    
+}
+.para2{
+    text-align: center;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.div1{
+    display: inline-block;
+    width: 24%;
+    float: left;
+    align-content: center;
+}
+.Sparkle{
+  
+    color: pink;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.div2{
+    display: inline-block;
+    width: 24%;
+    float: right;
+    align-content: center;
+}
+.Mango{
+
+    color:orange;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+   
+    
+}
+
+.div3{
+    display: inline-block;
+    width:24%;
+    align-content: center;
+}
+.Orange{
+ 
+    color:orangered;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.div4{
+    display: inline-block;
+    width: 24%;
+    align-content: center;
+    
+}
+.Berry{
+    
+    color: blue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.button{
+    margin-right: 75%;
+    margin-left: 34%;
+    width: 200px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 30px;
+    padding-top: 5px ;
+    padding-bottom: 5px ;
+    font-size: medium;
+    color:white;
+}
