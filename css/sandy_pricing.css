@@ -7,9 +7,10 @@
 
 .sa_primid{
   
-   margin-bottom: 125px;
-    margin-left: 65px;
-    margin-right: -7px;
+  margin-bottom: 125px;
+  text-align: center;
+    /* margin-left: 65px;
+    margin-right: -7px; */
 }
  .sa_plan{
       color: rgb(65, 9, 77);
@@ -32,10 +33,13 @@
   }
 
   .sa_pricing{
-      display: flex;
-      width: 71%;
-      margin-left: 188px;
-      box-sizing: border-box;
+    display: flex;
+    width: 80%;
+    /* margin-left: 188px; */
+    /* box-sizing: border-box; */
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
 
   }
 
@@ -43,7 +47,7 @@
 
   border-radius: 543px;
   width: 109px;
-  margin-left: 665px;
+  /* margin-left: 665px; */
   margin-top: -43px;
   margin-bottom: 25px;
 }
@@ -54,7 +58,7 @@
     margin: 20px;
      padding: 70px 50px;
     border-radius: 10px;
-    width: 315px;
+    width: 25%;
   }
 
   .sa_monthly{
@@ -63,7 +67,7 @@
     margin: 20px;
     padding: 70px 50px;
     border-radius: 10px;
-    width: 315px;
+    width: 25%;
   }
 
   .sa_trail{
@@ -89,7 +93,7 @@
     margin: 20px;
     padding: 70px 50px;
     border-radius: 10px;
-    width: 315px;
+    width: 25%;
   }
 
 

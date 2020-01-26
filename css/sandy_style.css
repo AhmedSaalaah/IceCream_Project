@@ -82,7 +82,7 @@
 
 .sa_section10{
 
-  background-image: url(https://sktperfectdemo.com/themepack/icecream/wp-content/themes/skt-ele-icecream/images/footer-bg.jpg);
+  background-image: url(../img/sandy_footer-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -112,28 +112,33 @@
 
   .sa_middle{
 
-   display: flex;
-   margin-left: 200px;
-   margin-top: 85px;
-   width: 80%;
-   padding: 35px 0px 40px;
+    display: flex;
+    /* margin-left: 200px; */
+    margin: auto;
+    margin-top: 85px;
+    width: 80%;
+    padding: 35px 0px 40px;
+    flex-wrap: wrap;
+    justify-content: center;
    
   }
 
    .sa_address{
      
-     background-color:#d43c3a;
-     border-radius: 20px;
-     width: 310px;
-     height: 120px;
-     text-align: center;
-     padding: 0px 20px 25px;
-     margin-right: 57px; /* 3mltha 3shan ab3d 3n links l social media*/
-     margin-left: 45px;
+    background-color: #d43c3a;
+    border-radius: 20px;
+    width: 310px;
+    height: 120px;
+    text-align: center;
+    padding: 0px 20px 25px;
+    /* margin-right: 57px; */
+    /* margin-left: 45px;*/
      
    }
     .sa_follow{
-      padding: 30px 20px 25px;
+      /* padding: 30px 20px 25px;  */
+      margin-left: 60px;
+      margin-right: 60px;
     }
 
    .sa_para{
@@ -173,8 +178,8 @@
   height: 120px;
   text-align: center;
   padding: 0px 20px 25px;
-  margin-left: 40px;
-  float: right;
+  /* margin-left: 40px; */
+  /* float: right;*/
 
  }
 .sa_menu{
@@ -209,38 +214,3 @@
     font-size: 13px;
    
   }
-  .sa_clickme{
-
-    left: 12px;
-    color: white;
-    margin-bottom: 7px;
-    padding-bottom: 84px;
-    position: fixed;
-    bottom: 10px;
-    border: none;
-    background-color:rgb(17, 38, 134);
-    color: rgb(224, 83, 28);
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 50px;
-    font-size: 15px;
-  
-  }
-  .sa_up {
-    display: none; /* 3shan malosh lazma awl ma aft7 */
-    position: fixed; 
-    bottom: 10px; 
-    right: 60px; 
-    border: none; 
-    background-color: rgb(161, 15, 15); 
-    color: white; 
-    cursor: pointer;
-    padding: 15px; 
-    border-radius: 50px; 
-    font-size: 15px; 
-  }
-  
-  .sa_up:hover {
-    background-color: teal; 
-  }
-
