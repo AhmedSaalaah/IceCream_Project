@@ -1,0 +1,36 @@
+.elementor-shape svg {
+    margin: auto;
+    display: block;
+    width: calc(100% + 1.3px);
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);}
+
+   
+
+    .elementor *{
+        box-sizing: border-box;
+    }
+    .svg1{
+        height: 30%;
+        width: 100%;
+        fill: white;
+        
+    }
+    .svg2{
+        height: 30%;
+            width: 100%;
+            fill: teal;
+    }
+    .svg3{
+        height: 30%;
+            width: 100%;
+            fill: orangered;
+    }
+    .svg4{
+        height: 30%;
+            width: 100%;
+            fill: yellow;
+    }
